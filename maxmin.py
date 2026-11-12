@@ -1,4 +1,4 @@
-def minimax(nums) -> list:
+def maxmin(nums) -> list:
     minimum, maximum = float("inf"), float("-inf")
 
     for num in nums:
@@ -9,4 +9,4 @@ def minimax(nums) -> list:
 
 if __name__ == "__main__":
     nums = [2, 4, 1, 0, 2, -1]
-    print(minimax(nums))
+    print(maxmin(nums))
